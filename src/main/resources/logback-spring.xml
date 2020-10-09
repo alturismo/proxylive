@@ -14,11 +14,11 @@
 
 
     <!-- LOG everything at INFO level -->
-    <root level="info">
+    <root level="warning">
         <appender-ref ref="Console" />
     </root>
 
-    <logger name="com.github.segator.proxylive" level="trace" additivity="false">
+    <logger name="com.github.segator.proxylive" level="warning" additivity="false">
         <appender-ref ref="Console" />
     </logger>
 
